@@ -2,28 +2,28 @@
 
 
 
-| 厂商名称       | 产品型号         | IP型号      | 备注                             |
-| -------------- | ---------------- | ----------- | -------------------------------- |
-| T-Head/XuanTie | TH1520           | BXM-4-64    | RISC-V                           |
-| StarFive       | JH7110           | BXE-4-32    | RISC-V                           |
-| ESWIN          | EIC7700          | AXM-8-256   | RISC-V                           |
-| ESWIN          | EIC7702          | AXM-8-256   | RISC-V                           |
-| SpacemiT       | K1/M1            | BXE-2-32    | RISC-V                           |
-| Sophgo         | SG2380           | AXT-16-512  | RISC-V（受美国制裁可能无法生产） |
-| Innosilicon    | Fantasy 1 Type-A | BXT-32-1024 | 独立显卡                         |
-| Innosilicon    | Fantasy 2        | BXT-32-1024 | 独立显卡                         |
-| Moore Threads  | MTT-S**          | BXT-32-1024 | 独立显卡                         |
-| Phytium        | X100             |             | 桥片                             |
-| Xiaomi*        |                  | DXT-72-2304 | ARM                              |
-| Allwinner      | A733             | BXM-4-64    | ARM                              |
-|                |                  |             |                                  |
-|                |                  |             |                                  |
-|                |                  |             |                                  |
-|                |                  |             |                                  |
-|                |                  |             |                                  |
-|                |                  |             |                                  |
-|                |                  |             |                                  |
-|                |                  |             |                                  |
+| 厂商名称       | 产品型号         | IP型号      | 备注BVNC                         | BVNC Code     |
+| -------------- | ---------------- | ----------- | -------------------------------- | ------------- |
+| T-Head/XuanTie | TH1520           | BXM-4-64    | RISC-V                           | 36.52.104.182 |
+| StarFive       | JH7110           | BXE-4-32    | RISC-V                           |               |
+| ESWIN          | EIC7700          | AXM-8-256   | RISC-V                           | 30.3.408.101  |
+| ESWIN          | EIC7702          | AXM-8-256   | RISC-V                           | 30.3.408.101  |
+| SpacemiT       | K1/M1            | BXE-2-32    | RISC-V                           |               |
+| Sophgo         | SG2380           | AXT-16-512  | RISC-V（受美国制裁可能无法生产） |               |
+| Innosilicon    | Fantasy 1 Type-A | BXT-32-1024 | 独立显卡                         |               |
+| Innosilicon    | Fantasy 2        | BXT-32-1024 | 独立显卡                         | 35.4.1632.23  |
+| Moore Threads  | MTT-S**          | BXT-32-1024 | 独立显卡                         |               |
+| Phytium        | X100             |             | 桥片                             |               |
+| Xiaomi*        |                  | DXT-72-2304 | ARM                              |               |
+| Allwinner      | A733             | BXM-4-64    | ARM                              |               |
+|                |                  |             |                                  |               |
+|                |                  |             |                                  |               |
+|                |                  |             |                                  |               |
+|                |                  |             |                                  |               |
+|                |                  |             |                                  |               |
+|                |                  |             |                                  |               |
+|                |                  |             |                                  |               |
+|                |                  |             |                                  |               |
 
 
 
