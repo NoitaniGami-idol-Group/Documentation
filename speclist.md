@@ -8,7 +8,7 @@
 | StarFive       | JH7110           | BXE-4-32    | RISC-V                           |               |
 | ESWIN          | EIC7700          | AXM-8-256   | RISC-V                           | 30.3.408.101  |
 | ESWIN          | EIC7702          | AXM-8-256   | RISC-V                           | 30.3.408.101  |
-| SpacemiT       | K1/M1            | BXE-2-32    | RISC-V                           |               |
+| SpacemiT       | K1/M1            | BXE-2-32    | RISC-V                           | 36.29.52.182  |
 | Sophgo         | SG2380           | AXT-16-512  | RISC-V（受美国制裁可能无法生产） |               |
 | Innosilicon    | Fantasy 1 Type-A | BXT-32-1024 | 独立显卡                         |               |
 | Innosilicon    | Fantasy 2        | BXT-32-1024 | 独立显卡                         | 35.4.1632.23  |
@@ -32,4 +32,3 @@
 Tips：厂商名称后面带*为可靠性低于20%的消息 经供参考
 
 Tips：内容均来自公开官方/非官方资料检索，仅供参考，不做任何可靠性保证
-
