@@ -13,7 +13,7 @@
 | Innosilicon    | Fantasy 1 Type-A | BXT-32-1024 | 独立显卡                         |               |
 | Innosilicon    | Fantasy 2        | BXT-32-1024 | 独立显卡                         | 35.4.1632.23  |
 | Moore Threads  | MTT-S**          | BXT-32-1024 | 独立显卡                         |               |
-| Phytium        | X100             |             | 桥片                             |               |
+| Phytium        | X100             | AXT-16-512  | 桥片                             |               |
 | Xiaomi*        |                  | DXT-72-2304 | ARM                              |               |
 | Allwinner      | A733             | BXM-4-64    | ARM                              |               |
 |                |                  |             |                                  |               |
