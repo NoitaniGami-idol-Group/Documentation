@@ -2,7 +2,7 @@
 
 
 
-| 厂商名称       | 产品型号         | IP型号      | 备注BVNC                         | BVNC Code     |
+| 厂商名称       | 产品型号         | IP型号      | 备注                             | BVNC Code     |
 | -------------- | ---------------- | ----------- | -------------------------------- | ------------- |
 | T-Head/XuanTie | TH1520           | BXM-4-64    | RISC-V                           | 36.52.104.182 |
 | StarFive       | JH7110           | BXE-4-32    | RISC-V                           |               |
@@ -13,7 +13,7 @@
 | Innosilicon    | Fantasy 1 Type-A | BXT-32-1024 | 独立显卡                         |               |
 | Innosilicon    | Fantasy 2        | BXT-32-1024 | 独立显卡                         | 35.4.1632.23  |
 | Moore Threads  | MTT-S**          | BXT-32-1024 | 独立显卡                         |               |
-| Phytium        | X100             | AXT-16-512  | 桥片                             |               |
+| Phytium        | X100             | AXT-16-512  | 桥片                             | 30.3.816.20   |
 | Xiaomi*        |                  | DXT-72-2304 | ARM                              |               |
 | Allwinner      | A733             | BXM-4-64    | ARM                              |               |
 |                |                  |             |                                  |               |
