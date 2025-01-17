@@ -32,7 +32,7 @@
 
 | 厂商名称                  | 产品型号  | IP型号      | GPU频率 | 产品类型 | BVNC Code | DDK Version |
 | ------------------------- | --------- | ----------- | ------- | -------- | --------- | ----------- |
-| Google                    | Tensor G5 | DXT         |         | ARM Soc  |           |             |
+| Google                    | Tensor G5 | DXT-48-1536 | 1100Mhz | ARM Soc  |           |             |
 | Xiaomi                    | XuanJie   | DXT-72-2304 |         | ARM Soc  |           |             |
 | XIANGDIXIAN（已结束营业） |           | DXD-72-2304 |         | 独立显卡 |           |             |
 
