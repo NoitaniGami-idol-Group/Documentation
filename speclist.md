@@ -41,17 +41,18 @@
 | Xiaomi      | XuanJie   | DXT-72-2304 |         | ARM Soc  |           |             | 本处出处来源微博（内容已被删除出处无法考究），另有酷安来源为：CXT-48-1536<br />但根据IMG产品宣传文档推测为DXT系列 |
 | XIANGDIXIAN | FuXi A0   | DXD-72-2304 |         | 独立显卡 |           |             | https://www.imaginationtech.com/products/gpu/img-dxd-gpu/    |
 
-Tips：内容均来自公开官方/非官方资料检索或根据新闻稿推测，仅供参考，不做任何可靠性保证
 
-Tips：列表中无 BVNC Code 的条目均为推测
+> [!TIP]
+> 内容均来自公开官方/非官方资料检索或根据新闻稿推测，仅供参考，不做任何可靠性保证<br />列表中无 BVNC Code 的条目均为推测
 
-Tips：**请部分KOL（例如：微博ID-定*码）再次阅读上述两句话，不要甩一张图就说实锤某些内容博取流量，如果懒不想打字可以截图多截点避免误导他人**
 
-相关信息获取方式：
+> [!CAUTION]
+>**请部分KOL（例如：微博ID-定*码）再次阅读上述两句话，不要甩一张图就说实锤某些内容博取流量，如果懒不想打字可以截图多截点避免误导他人**
 
-GPU频率：使用PVRTune获取
 
-BVNC Code：在 lib/firmware 下观察 rgx.fw.xxxxx 后面的数字，或 查看设备的 Vulkan UUID 将其 ASCII 转字符
-
-DDK Version：查看vulkaninfo，或查看系统 dmesg 启动信息
+> [!NOTE]
+> 相关信息获取方式：<br />
+> GPU频率：使用PVRTune获取<br />
+> BVNC Code：在 lib/firmware 下观察 rgx.fw.xxxxx 后面的数字，或 查看设备的 Vulkan UUID 将其 ASCII 转字符<br />
+> DDK Version：查看vulkaninfo，或查看系统 dmesg 启动信息<br />
 
