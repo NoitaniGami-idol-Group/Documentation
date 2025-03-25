@@ -4,12 +4,12 @@
 
 **A-Series A系列：**
 
-| 厂商名称 | 产品型号 | IP型号     | GPU频率 | 产品类型   | BVNC Code    | DDK Version  | 来源/备注                     |
-| -------- | -------- | ---------- | ------- | ---------- | ------------ | ------------ | ----------------------------- |
-| ESWIN    | EIC7700  | AXM-8-256  | 800Mhz  | RISC-V Soc | 30.3.408.101 | 24.2@6643903 | 自购验证                      |
-| ESWIN    | EIC7702  | AXM-8-256  | 800Mhz  | RISC-V Soc | 30.3.408.101 | 24.2@6643903 | 自购验证                      |
-| Sophgo   | SG2380   | AXT-16-512 |         | RISC-V Soc |              |              | https://milkv.io/chips/sg2380 |
-| Phytium  | X100     | AXT-16-512 |         | 桥片       | 30.3.816.20  | 1.16@6099580 |                               |
+| 厂商名称 | 产品型号 | IP型号     | GPU频率    | 产品类型   | BVNC Code    | DDK Version  | 来源/备注                                                    |
+| -------- | -------- | ---------- | ---------- | ---------- | ------------ | ------------ | ------------------------------------------------------------ |
+| ESWIN    | EIC7700  | AXM-8-256  | 800Mhz     | RISC-V Soc | 30.3.408.101 | 24.2@6643903 | 自购验证                                                     |
+| ESWIN    | EIC7702  | AXM-8-256  | 800Mhz     | RISC-V Soc | 30.3.408.101 | 24.2@6643903 | 自购验证（使用EIC7700判断）                                  |
+| Sophgo   | SG2380   | AXT-16-512 |            | RISC-V Soc |              |              | https://milkv.io/chips/sg2380                                |
+| Phytium  | X100     | AXT-16-512 | 400/600Mhz | 桥片       | 30.3.816.20  | 1.16@6099580 | 自购验证（GPU频率根据文档可得有两种规格，同时还有不带GPU的版本） |
 
 **B-Series B系列：**
 
@@ -18,7 +18,7 @@
 | SpacemiT          | K1/M1            | BXE-2-32        | 614Mhz   | RISC-V Soc | 36.29.52.182  | 24.2@6603887 | 自购验证                                            |
 | StarFive          | JH7110           | BXE-4-32 MC1    |          | RISC-V Soc | 36.50.54.182  | 1.19         | 自购验证                                            |
 | Texas Instruments | AM68             | BXS-4-64        |          | ARM Soc    | 36.53.104.796 | 24.2@6643903 | 自购验证                                            |
-| T-Head/XuanTie    | TH1520           | BXM-4-64        |          | RISC-V Soc | 36.52.104.182 | 1.17@6210866 | 自购验证                                            |
+| XuanTie           | TH1520           | BXM-4-64        |          | RISC-V Soc | 36.52.104.182 | 1.17@6210866 | 自购验证                                            |
 | Allwinner         | A733             | BXM-4-64 MC1    |          | ARM Soc    |               | 24.1         | https://www.notebookcheck-cn.com/A733.951900.0.html |
 | Innosilicon       | Fantasy 1 Type-A | BXT-32-1024     |          | 独立显卡   |               |              | https://www.design-reuse-china.com/news/202202135   |
 | Innosilicon       | Fantasy 2        | BXT-32-1024     |          | 独立显卡   | 35.4.1632.23  |              |                                                     |
