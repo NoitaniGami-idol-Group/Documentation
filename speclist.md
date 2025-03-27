@@ -52,7 +52,6 @@
 
 > [!NOTE]
 > 相关信息获取方式：<br />
-> GPU频率：使用PVRTune获取<br />
-> BVNC Code：在 lib/firmware 下观察 rgx.fw.xxxxx 后面的数字，或 查看设备的 Vulkan UUID 将其 ASCII 转字符<br />
-> DDK Version：查看vulkaninfo，或查看系统 dmesg 启动信息<br />
-
+> GPU频率：cat /sys/kernel/debug/pvr/gpu00/debug_dump | grep freq<br />
+> BVNC Code 以及 DDK Version：cat /sys/kernel/debug/pvr/version <br />
+> 驱动及固件运行状态 GPU占用率等：cat /sys/kernel/debug/pvr/status <br />
