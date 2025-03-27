@@ -35,11 +35,11 @@
 
 **D-Series D系列：**
 
-| 厂商名称    | 产品型号  | IP型号      | GPU频率 | 产品类型 | BVNC Code | DDK Version | 来源/备注                                                    |
-| ----------- | --------- | ----------- | ------- | -------- | --------- | ----------- | ------------------------------------------------------------ |
-| Google      | Tensor G5 | DXT-48-1536 | 1100Mhz | ARM Soc  |           |             | https://www.androidpolice.com/google-pixel-10-tensor-g5-may-not-deliver-performance-boost/ |
-| Xiaomi      | XuanJie   | DXT-72-2304 |         | ARM Soc  |           |             | 本处出处来源微博（内容已被删除出处无法考究），另有酷安来源为：CXT-48-1536<br />但根据IMG产品宣传文档推测为DXT系列 |
-| XIANGDIXIAN | FuXi A0   | DXD-72-2304 |         | 独立显卡 |           |             | https://www.imaginationtech.com/products/gpu/img-dxd-gpu/    |
+| 厂商名称    | 产品型号  | IP型号             | GPU频率 | 产品类型 | BVNC Code | DDK Version | 来源/备注                                                    |
+| ----------- | --------- | ------------------ | ------- | -------- | --------- | ----------- | ------------------------------------------------------------ |
+| Google      | Tensor G5 | DXT-48-1536-0.5RT2 | 1100Mhz | ARM Soc  |           |             | https://www.androidpolice.com/google-pixel-10-tensor-g5-may-not-deliver-performance-boost/<br />同时根据官方网页显示DXT-48-1536型号为DXT-48-1536-0.5RT2<br />https://www.imaginationtech.com/product/img-dxt-48-1536/ |
+| Xiaomi      | XuanJie   | DXT-72-2304        |         | ARM Soc  |           |             | 本处出处来源微博（内容已被删除出处无法考究），另有酷安来源为：CXT-48-1536<br />但根据IMG产品宣传文档推测为DXT系列 |
+| XIANGDIXIAN | FuXi A0   | DXD-72-2304        |         | 独立显卡 |           |             | https://www.imaginationtech.com/products/gpu/img-dxd-gpu/    |
 
 
 > [!TIP]
