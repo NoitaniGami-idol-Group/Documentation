@@ -3,6 +3,7 @@ Rogue：
 | 厂商名称 | 产品型号 | IP型号   | 频率   | DDK Version  | fp32-scalar | fp32-vec4   | fp16-scalar | fp16-vec4   | int32-scalar | int32-vec4 | int16-scalar | int16-vec4 |
 | -------- | -------- | -------- | ------ | ------------ | ----------- | ----------- | ----------- | ----------- | ------------ | ---------- | ------------ | ---------- |
 | SpacemiT | K1/M1    | BXE-2-32 | 614Mhz | 23.2@6460340 | 0.67 GFLOPS | 0.76 GFLOPS | 1.31 GFLOPS | 0.88 GFLOPS | 7.64 GIOPS   | 0.67 GIOPS | 7.64 GIOPS   | 0.67 GIOPS |
+| XuanTie  | TH1520   | BXM-4-64 |        | 1.17@6210866 | 1.54 GFLOPS | 3.09 GFLOPS | 8.58 GFLOPS | 2.54 GFLOPS | 8.68 GIOPS   | 1.54 GIOPS | 8.68 GIOPS   | 1.54 GIOPS |
 
 
 
