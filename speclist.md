@@ -13,21 +13,21 @@
 
 **B-Series B系列：**
 
-| 厂商名称          | 产品型号         | IP型号          | 系列     | GPU频率  | 产品类型   | BVNC Code     | DDK Version  | 来源/备注                                             |
-| ----------------- | ---------------- | --------------- | -------- | -------- | ---------- | ------------- | ------------ | ----------------------------------------------------- |
-| SpacemiT          | K1/M1            | BXE-2-32        | Rogue    | 614Mhz   | RISC-V Soc | 36.29.52.182  | 24.2@6603887 | 自购验证                                              |
-| StarFive          | JH7110           | BXE-4-32 MC1    | Rogue    |          | RISC-V Soc | 36.50.54.182  | 1.19@6345021 | 自购验证                                              |
-| Texas Instruments | AM68             | BXS-4-64        | Rogue    | 800Mhz   | ARM Soc    | 36.53.104.796 | 24.2@6643903 | 自购验证                                              |
-| XuanTie           | TH1520           | BXM-4-64        | Rogue    |          | RISC-V Soc | 36.52.104.182 | 1.17@6210866 | 自购验证                                              |
-| Allwinner         | A733             | BXM-4-64 MC1    | Rogue    |          | ARM Soc    |               | 24.1         | https://www.notebookcheck-cn.com/A733.951900.0.html   |
-| Innosilicon       | Fantasy 1 Type-A | BXT-32-1024     | Volcanic |          | 独立显卡   |               |              | https://www.design-reuse-china.com/news/202202135     |
-| Innosilicon       | Fantasy 2        | BXT-32-1024     | Volcanic |          | 独立显卡   | 35.4.1632.23  |              |                                                       |
-| Moore Threads     | MTT-S80          | BXT-32-1024 MC8 | Volcanic | 1800 MHz | 独立显卡   | 35.4.1632.23  |              | https://vulkan.gpuinfo.org/displayreport.php?id=36623 |
-| Moore Threads     | MTT-S70          | BXT-32-1024 MC8 | Volcanic | 1600 MHz | 独立显卡   | 35.4.1632.23  |              |                                                       |
-| Moore Threads     | MTT-S30          | BXT-32-1024 MC2 | Volcanic | 1300 MHz | 独立显卡   | 35.4.1632.23  |              |                                                       |
-| Moore Threads     | MTT-S10          | BXT-32-1024 MC2 | Volcanic | 1000 MHz | 独立显卡   | 35.4.1632.23  |              |                                                       |
-| XIANGDIXIAN       | PanGu A0         | BXT-32-1024     | Volcanic |          | 独立显卡   |               |              |                                                       |
-| XIANGDIXIAN       | PanGu B0         | BXT-32-1024     | Volcanic |          | 独立显卡   |               |              |                                                       |
+| 厂商名称          | 产品型号         | IP型号          | 系列     | GPU频率  | 产品类型   | BVNC Code     | DDK Version  | 来源/备注                                                    |
+| ----------------- | ---------------- | --------------- | -------- | -------- | ---------- | ------------- | ------------ | ------------------------------------------------------------ |
+| SpacemiT          | K1/M1            | BXE-2-32        | Rogue    | 614Mhz   | RISC-V Soc | 36.29.52.182  | 24.2@6603887 | 自购验证                                                     |
+| StarFive          | JH7110           | BXE-4-32 MC1    | Rogue    | 594MHz   | RISC-V Soc | 36.50.54.182  | 1.19@6345021 | 自购验证                                                     |
+| Texas Instruments | AM68             | BXS-4-64        | Rogue    | 800Mhz   | ARM Soc    | 36.53.104.796 | 24.2@6643903 | 自购验证                                                     |
+| XuanTie           | TH1520           | BXM-4-64        | Rogue    |          | RISC-V Soc | 36.52.104.182 | 1.17@6210866 | 自购验证                                                     |
+| Allwinner         | A733             | BXM-4-64 MC1    | Rogue    |          | ARM Soc    |               | 24.1         | https://www.notebookcheck-cn.com/A733.951900.0.html          |
+| Innosilicon       | Fantasy 1 Type-A | BXT-32-1024     | Volcanic |          | 独立显卡   |               |              | https://www.design-reuse-china.com/news/202202135            |
+| Innosilicon       | Fantasy 2        | BXT-32-1024     | Volcanic |          | 独立显卡   | 35.4.1632.23  |              |                                                              |
+| Moore Threads     | MTT-S80          | BXT-32-1024 MC8 | Volcanic | 1800 MHz | 独立显卡   | 35.4.1632.23  | 1.19@6345021 | https://vulkan.gpuinfo.org/displayreport.php?id=36623<br />驱动信息推断为原始基础版本，实际被其进行过大量改动，可能和IMGDDK特性已经有所不同 |
+| Moore Threads     | MTT-S70          | BXT-32-1024 MC8 | Volcanic | 1600 MHz | 独立显卡   | 35.4.1632.23  | 1.19@6345021 |                                                              |
+| Moore Threads     | MTT-S30          | BXT-32-1024 MC2 | Volcanic | 1300 MHz | 独立显卡   | 35.4.1632.23  | 1.19@6345021 |                                                              |
+| Moore Threads     | MTT-S10          | BXT-32-1024 MC2 | Volcanic | 1000 MHz | 独立显卡   | 35.4.1632.23  | 1.19@6345021 |                                                              |
+| XIANGDIXIAN       | PanGu A0         | BXT-32-1024     | Volcanic |          | 独立显卡   |               |              |                                                              |
+| XIANGDIXIAN       | PanGu B0         | BXT-32-1024     | Volcanic |          | 独立显卡   |               |              |                                                              |
 
 **C-Series C系列：**
 
