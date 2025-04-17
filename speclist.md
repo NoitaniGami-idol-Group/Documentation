@@ -27,7 +27,7 @@
 | Moore Threads     | MTT-S30          | BXT-32-1024 MC2 | Volcanic | 1300 MHz | 独立显卡   | 35.4.1632.23  | 1.19@6345021 |                                                              |
 | Moore Threads     | MTT-S10          | BXT-32-1024 MC2 | Volcanic | 1000 MHz | 独立显卡   | 35.4.1632.23  | 1.19@6345021 |                                                              |
 | XIANGDIXIAN       | PanGu A0         | BXT-32-1024     | Volcanic |          | 独立显卡   |               |              |                                                              |
-| XIANGDIXIAN       | PanGu B0         | BXT-32-1024     | Volcanic |          | 独立显卡   |               |              |                                                              |
+| XIANGDIXIAN       | PanGu B0         | BXT-32-1024     | Volcanic |          | 独立显卡   |               |              | 已经有成品上架（ ERUN-130B-4 ERUN-130B-2），但价格有波动<br />336→496 |
 
 **C-Series C系列：**
 
