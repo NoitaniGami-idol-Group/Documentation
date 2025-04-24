@@ -11,7 +11,7 @@ Rogue：
 | [BXE-2-32](https://gitlab.freedesktop.org/imagination/mesa/-/commit/289aae12c0480540c0a896b8308c62bd7c4f2b31) | SpacemiT K1/M1            | 是           |                | https://gitlab.freedesktop.org/imagination/linux-firmware/-/issues/2#note_2643442<br /> |                            |
 | [BXE-4-32](https://gitlab.freedesktop.org/imagination/mesa/-/commit/a3e1248cea54ba219c928ecfc0945f9db5805f39) | StarFive JH7110           | 是           |                |                                                              |                            |
 | [BXM-4-64](https://gitlab.freedesktop.org/imagination/mesa/-/commit/76609e34471aca4bea8f62bf241b6973089c2084) | XuanTie TH1520            | 是           |                | 1：https://gitlab.freedesktop.org/imagination/linux-firmware/-/issues/2#note_2643442 （其中有部分内容涉及）<br />2：https://lore.kernel.org/all/20241014123314.1231517-1-m.wilczynski@samsung.com/ |                            |
-| [BXS-4-64](https://gitlab.freedesktop.org/imagination/mesa/-/commit/e47428718337f4e8e1f71c48b5ed646ad12044bb) |                           | 是           |                | Imagination Technologies 官方开发                            | 仅可进行十分基础的图形操作 |
+| [BXS-4-64](https://gitlab.freedesktop.org/imagination/mesa/-/commit/e47428718337f4e8e1f71c48b5ed646ad12044bb) | 暂无                      | 是           |                | Imagination Technologies 官方开发                            | 仅可进行十分基础的图形操作 |
 
 Volcanic：
 
