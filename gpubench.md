@@ -1,8 +1,9 @@
 参考对比：
 
-| 厂商名称 | 产品型号               | IP型号         | 频率 | DDK Version | fp32-scalar    | fp32-vec4      | fp16-scalar | fp16-vec4 | int32-scalar | int32-vec4   | int16-scalar | int16-vec4 |
-| -------- | ---------------------- | -------------- | ---- | ----------- | -------------- | -------------- | ----------- | --------- | ------------ | ------------ | ------------ | ---------- |
-| AMD      | AMD Radeon 550X Series | RADV POLARIS12 |      |             | 1542.84 GFLOPS | 1515.31 GFLOPS |             |           | 308.55 GIOPS | 308.52 GIOPS |              |            |
+| 厂商名称 | 产品型号                        | IP型号         | 频率 | DDK Version | fp32-scalar    | fp32-vec4      | fp16-scalar | fp16-vec4 | int32-scalar | int32-vec4   | int16-scalar | int16-vec4 |
+| -------- | ------------------------------- | -------------- | ---- | ----------- | -------------- | -------------- | ----------- | --------- | ------------ | ------------ | ------------ | ---------- |
+| AMD      | AMD Radeon 550X Series          | RADV POLARIS12 |      |             | 1542.84 GFLOPS | 1515.31 GFLOPS |             |           | 308.55 GIOPS | 308.52 GIOPS |              |            |
+| AMD      | AMD Radeon Pro WX 5100 Graphics | RADV POLARIS10 |      |             | 3272.23 GFLOPS | 3082.63 GFLOPS |             |           | 703.87 GIOPS | 702.09 GIOPS |              |            |
 
 
 
