@@ -4,6 +4,8 @@
 
 | 厂商名称  | 产品型号 | IP型号 | 系列  | GPU频率 | 产品类型 | BVNC Code | DDK Version | 来源/备注 |
 | --------- | -------- | ------ | ----- | ------- | -------- | --------- | ----------- | --------- |
+| MediaTek  | MT8173C  | GX6250 | Rogue | 700MHz  | ARM Soc  |           |             |           |
+| Apple     | A10      | GT7600 | Rogue | 900MHz  | ARM Soc  |           |             |           |
 | Synaptics | VS680    | GE9920 | Rogue |         | ARM Soc  |           |             |           |
 
 
