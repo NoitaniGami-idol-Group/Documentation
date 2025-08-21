@@ -27,7 +27,7 @@
 | StarFive          | JH7110           | BXE-4-32 MC1    | Rogue    | 594MHz   | RISC-V Soc | 36.50.54.182  | 1.19@6345021 | 自购验证                                                     |
 | Texas Instruments | AM68             | BXS-4-64 MC1    | Rogue    | 800Mhz   | ARM Soc    | 36.53.104.796 | 24.2@6643903 | 自购验证                                                     |
 | XuanTie           | TH1520           | BXM-4-64        | Rogue    |          | RISC-V Soc | 36.52.104.182 | 1.17@6210866 | 自购验证                                                     |
-| Allwinner         | A733             | BXM-4-64 MC1    | Rogue    |          | ARM Soc    |               | 24.1         | https://www.notebookcheck-cn.com/A733.951900.0.html          |
+| Allwinner         | A733             | BXM-4-64 MC1    | Rogue    |          | ARM Soc    | 36.56.104.183 | 24.2@6603887 |                                                              |
 | MediaTek          | MT6855           | BXM-8-256       | Volcanic |          | ARM Soc    |               | 1.15@6133110 |                                                              |
 | Innosilicon       | Fantasy 1 Type-A | BXT-32-1024     | Volcanic |          | 独立显卡   | 35.4.1632.23  |              | https://www.design-reuse-china.com/news/202202135            |
 | Innosilicon       | Fantasy 2        | BXT-32-1024     | Volcanic |          | 独立显卡   | 35.4.1632.23  |              |                                                              |
@@ -44,11 +44,11 @@
 
 **D-Series D系列：**
 
-| 厂商名称    | 产品型号  | IP型号             | 系列     | GPU频率 | 产品类型 | BVNC Code | DDK Version | 来源/备注                                                    |
-| ----------- | --------- | ------------------ | -------- | ------- | -------- | --------- | ----------- | ------------------------------------------------------------ |
-| Google      | Tensor G5 | DXT-48-1536-0.5RT2 | Volcanic | 1100Mhz | ARM Soc  |           |             | https://www.androidpolice.com/google-pixel-10-tensor-g5-may-not-deliver-performance-boost/<br />同时根据官方网页显示DXT-48-1536型号为DXT-48-1536-0.5RT2<br />https://www.imaginationtech.com/product/img-dxt-48-1536/ |
-| Xiaomi      |           | DXT-72-2304        | Volcanic |         | ARM Soc  |           |             | 本处出处来源微博（内容已被删除出处无法考究），另有酷安来源为：CXT-48-1536<br />但根据IMG产品宣传文档推测为DXT系列 |
-| XIANGDIXIAN | FuXi A0   | DXD-72-2304        | Volcanic |         | 独立显卡 |           |             | https://www.imaginationtech.com/products/gpu/img-dxd-gpu/    |
+| 厂商名称    | 产品型号  | IP型号             | 系列     | GPU频率         | 产品类型 | BVNC Code | DDK Version | 来源/备注                                                    |
+| ----------- | --------- | ------------------ | -------- | --------------- | -------- | --------- | ----------- | ------------------------------------------------------------ |
+| Google      | Tensor G5 | DXT-48-1536-0.5RT2 | Volcanic | 396 MHz（Base） | ARM Soc  |           |             |                                                              |
+| Xiaomi      |           | DXT-72-2304        | Volcanic |                 | ARM Soc  |           |             | 本处出处来源微博（内容已被删除出处无法考究），另有酷安来源为：CXT-48-1536<br />但根据IMG产品宣传文档推测为DXT系列 |
+| XIANGDIXIAN | FuXi A0   | DXD-72-2304        | Volcanic |                 | 独立显卡 |           |             | https://www.imaginationtech.com/products/gpu/img-dxd-gpu/    |
 
 
 > [!TIP]
