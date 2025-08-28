@@ -2,11 +2,13 @@
 
 **使用数字代号的系列：**
 
-| 厂商名称  | 产品型号 | IP型号 | 系列  | GPU频率 | 产品类型 | BVNC Code | DDK Version  | 来源/备注 |
-| --------- | -------- | ------ | ----- | ------- | -------- | --------- | ------------ | --------- |
-| MediaTek  | MT8173C  | GX6250 | Rogue | 700MHz  | ARM Soc  | 4.40.2.51 | 1.17@6210866 |           |
-| Apple     | A10      | GT7600 | Rogue | 900MHz  | ARM Soc  |           |              |           |
-| Synaptics | VS680    | GE9920 | Rogue |         | ARM Soc  |           |              |           |
+| 厂商名称   | 产品型号 | IP型号   | 系列  | GPU频率 | 产品类型 | BVNC Code | DDK Version  | 来源/备注 |
+| ---------- | -------- | -------- | ----- | ------- | -------- | --------- | ------------ | --------- |
+| MediaTek   | MT8173C  | GX6250   | Rogue | 700MHz  | ARM Soc  | 4.40.2.51 | 1.17@6210866 |           |
+| Apple      | A10      | GT7600   | Rogue | 900MHz  | ARM Soc  |           |              |           |
+| Synaptics  | VS680    | GE9920   | Rogue |         | ARM Soc  |           |              |           |
+| RuixinView | BF2001   | 9 Series | Rogue | 1600MHz | 独立显卡 |           |              |           |
+| RuixinView | BF2002   | 9 Series | Rogue | 850MHz  | 独立显卡 |           |              |           |
 
 
 
@@ -29,8 +31,8 @@
 | XuanTie           | TH1520           | BXM-4-64        | Rogue    |          | RISC-V Soc | 36.52.104.182 | 1.17@6210866 | 自购验证                                                     |
 | Allwinner         | A733             | BXM-4-64 MC1    | Rogue    |          | ARM Soc    | 36.56.104.183 | 24.2@6603887 | https://www.notebookcheck-cn.com/A733.951900.0.html          |
 | MediaTek          | MT6855           | BXM-8-256       | Volcanic |          | ARM Soc    |               | 1.15@6133110 |                                                              |
-| Innosilicon       | Fantasy 1 Type-A | BXT-32-1024     | Volcanic |          | 独立显卡   | 35.4.1632.23  |              | https://www.design-reuse-china.com/news/202202135            |
-| Innosilicon       | Fantasy 2        | BXT-32-1024     | Volcanic |          | 独立显卡   | 35.4.1632.23  |              |                                                              |
+| Innosilicon       | Fantasy 1 Type-A | BXT-32-1024 MC4 | Volcanic |          | 独立显卡   | 35.4.1632.23  |              |                                                              |
+| Innosilicon       | Fantasy 2        | BXT-32-1024 MC1 | Volcanic |          | 独立显卡   | 35.4.1632.23  |              |                                                              |
 | Moore Threads     | MTT-S80          | BXT-32-1024 MC8 | Volcanic | 1800 MHz | 独立显卡   | 35.4.1632.23  | 1.19@6345021 | https://vulkan.gpuinfo.org/displayreport.php?id=36623<br />驱动信息推断为原始基础版本，实际被其进行过大量改动，可能和IMGDDK特性已经有所不同 |
 | Moore Threads     | MTT-S70          | BXT-32-1024 MC8 | Volcanic | 1600 MHz | 独立显卡   | 35.4.1632.23  | 1.19@6345021 |                                                              |
 | Moore Threads     | MTT-S30          | BXT-32-1024 MC2 | Volcanic | 1300 MHz | 独立显卡   | 35.4.1632.23  | 1.19@6345021 |                                                              |
@@ -44,11 +46,11 @@
 
 **D-Series D系列：**
 
-| 厂商名称    | 产品型号  | IP型号             | 系列     | GPU频率 | 产品类型 | BVNC Code | DDK Version | 来源/备注                                                    |
-| ----------- | --------- | ------------------ | -------- | ------- | -------- | --------- | ----------- | ------------------------------------------------------------ |
-| Google      | Tensor G5 | DXT-48-1536-0.5RT2 | Volcanic | 1100Mhz | ARM Soc  |           |             | https://www.androidpolice.com/google-pixel-10-tensor-g5-may-not-deliver-performance-boost/<br />同时根据官方网页显示DXT-48-1536型号为DXT-48-1536-0.5RT2<br />https://www.imaginationtech.com/product/img-dxt-48-1536/ |
-| Xiaomi      |           | DXT-72-2304        | Volcanic |         | ARM Soc  |           |             | 本处出处来源微博（内容已被删除出处无法考究），另有酷安来源为：CXT-48-1536<br />但根据IMG产品宣传文档推测为DXT系列 |
-| XIANGDIXIAN | FuXi A0   | DXD-72-2304        | Volcanic |         | 独立显卡 |           |             | https://www.imaginationtech.com/products/gpu/img-dxd-gpu/    |
+| 厂商名称    | 产品型号  | IP型号             | 系列     | GPU频率         | 产品类型 | BVNC Code | DDK Version | 来源/备注                                                    |
+| ----------- | --------- | ------------------ | -------- | --------------- | -------- | --------- | ----------- | ------------------------------------------------------------ |
+| Google      | Tensor G5 | DXT-48-1536-0.5RT2 | Volcanic | 396 MHz（Base） | ARM Soc  |           |             |                                                              |
+| Xiaomi      |           | DXT-72-2304        | Volcanic |                 | ARM Soc  |           |             | 本处出处来源微博（内容已被删除出处无法考究），另有酷安来源为：CXT-48-1536<br />但根据IMG产品宣传文档推测为DXT系列 |
+| XIANGDIXIAN | FuXi A0   | DXD-72-2304        | Volcanic |                 | 独立显卡 |           |             | https://www.imaginationtech.com/products/gpu/img-dxd-gpu/    |
 
 
 > [!TIP]
