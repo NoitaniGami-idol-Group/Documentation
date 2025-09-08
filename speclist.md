@@ -38,7 +38,7 @@
 | Moore Threads     | MTT-S30          | BXT-32-1024 MC2 | Volcanic | 1300 MHz | 独立显卡   | 35.4.1632.23  | 1.19@6345021 |                                                              |
 | Moore Threads     | MTT-S10          | BXT-32-1024 MC2 | Volcanic | 1000 MHz | 独立显卡   | 35.4.1632.23  | 1.19@6345021 |                                                              |
 | XIANGDIXIAN       | PanGu A0         | BXT-32-1024     | Volcanic |          | 独立显卡   | 35.4.1632.23  |              |                                                              |
-| XIANGDIXIAN       | PanGu B0         | BXT-32-1024     | Volcanic |          | 独立显卡   |               |              | 已经有成品上架（ ERUN-130B-4 ERUN-130B-2），但价格有波动<br />336→496 |
+| XIANGDIXIAN       | PanGu B0         | BXT-32-1024     | Volcanic |          | 独立显卡   | 35.4.1632.23  |              | 已经有成品上架（ ERUN-130B-4 ERUN-130B-2），但价格有波动<br />336→496 |
 
 **C-Series C系列：**
 
@@ -46,11 +46,11 @@
 
 **D-Series D系列：**
 
-| 厂商名称    | 产品型号  | IP型号             | 系列     | GPU频率         | 产品类型 | BVNC Code | DDK Version | 来源/备注                                                    |
-| ----------- | --------- | ------------------ | -------- | --------------- | -------- | --------- | ----------- | ------------------------------------------------------------ |
-| Google      | Tensor G5 | DXT-48-1536-0.5RT2 | Volcanic | 396 MHz（Base） | ARM Soc  |           |             |                                                              |
-| Xiaomi      |           | DXT-72-2304        | Volcanic |                 | ARM Soc  |           |             | 本处出处来源微博（内容已被删除出处无法考究），另有酷安来源为：CXT-48-1536<br />但根据IMG产品宣传文档推测为DXT系列 |
-| XIANGDIXIAN | FuXi A0   | DXD-72-2304        | Volcanic |                 | 独立显卡 |           |             | https://www.imaginationtech.com/products/gpu/img-dxd-gpu/    |
+| 厂商名称    | 产品型号  | IP型号             | 系列     | GPU频率         | 产品类型 | BVNC Code | DDK Version  | 来源/备注                                                    |
+| ----------- | --------- | ------------------ | -------- | --------------- | -------- | --------- | ------------ | ------------------------------------------------------------ |
+| Google      | Tensor G5 | DXT-48-1536-0.5RT2 | Volcanic | 396 MHz（Base） | ARM Soc  |           | 24.3@6660496 |                                                              |
+| Xiaomi      |           | DXT-72-2304        | Volcanic |                 | ARM Soc  |           |              | 本处出处来源微博（内容已被删除出处无法考究），另有酷安来源为：CXT-48-1536<br />但根据IMG产品宣传文档推测为DXT系列 |
+| XIANGDIXIAN | FuXi A0   | DXD-72-2304        | Volcanic |                 | 独立显卡 |           |              | https://www.imaginationtech.com/products/gpu/img-dxd-gpu/    |
 
 
 > [!TIP]
