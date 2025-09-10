@@ -2,24 +2,26 @@
 
 **使用数字代号的系列：**
 
-| 厂商名称   | 产品型号 | IP型号   | 系列  | GPU频率 | 产品类型 | BVNC Code | DDK Version  | 来源/备注 |
-| ---------- | -------- | -------- | ----- | ------- | -------- | --------- | ------------ | --------- |
-| MediaTek   | MT8173C  | GX6250   | Rogue | 700MHz  | ARM Soc  | 4.40.2.51 | 1.17@6210866 |           |
-| Apple      | A10      | GT7600   | Rogue | 900MHz  | ARM Soc  |           |              |           |
-| Synaptics  | VS680    | GE9920   | Rogue |         | ARM Soc  |           |              |           |
-| RuixinView | BF2001   | 9 Series | Rogue | 1600MHz | 独立显卡 |           |              |           |
-| RuixinView | BF2002   | 9 Series | Rogue | 850MHz  | 独立显卡 |           |              |           |
+| 厂商名称   | 产品型号 | IP型号   | 系列  | GPU频率 | 产品类型   | BVNC Code | DDK Version  | 来源/备注 |
+| ---------- | -------- | -------- | ----- | ------- | ---------- | --------- | ------------ | --------- |
+| MediaTek   | MT8173C  | GX6250   | Rogue | 700MHz  | ARM Soc    | 4.40.2.51 | 1.17@6210866 |           |
+| Apple      | A10      | GT7600   | Rogue | 900MHz  | ARM Soc    |           |              |           |
+|            |          | GE8300   | Rogue |         | RISC-V Soc |           |              |           |
+| Synaptics  | VS680    | GE9920   | Rogue |         | ARM Soc    |           |              |           |
+| RuixinView | BF2001   | 9 Series | Rogue | 1600MHz | 独立显卡   |           |              |           |
+| RuixinView | BF2002   | 9 Series | Rogue | 850MHz  | 独立显卡   |           |              |           |
 
 
 
 **A-Series A系列：**
 
-| 厂商名称 | 产品型号 | IP型号     | 系列     | GPU频率    | 产品类型   | BVNC Code    | DDK Version  | 来源/备注                                                    |
-| -------- | -------- | ---------- | -------- | ---------- | ---------- | ------------ | ------------ | ------------------------------------------------------------ |
-| ESWIN    | EIC7700  | AXM-8-256  | Volcanic | 800Mhz     | RISC-V Soc | 30.3.408.101 | 24.2@6643903 | 自购验证                                                     |
-| ESWIN    | EIC7702  | AXM-8-256  | Volcanic | 800Mhz     | RISC-V Soc | 30.3.408.101 | 24.2@6643903 | 自购验证（使用EIC7700判断）                                  |
-| Sophgo   | SG2380   | AXT-16-512 | Volcanic |            | RISC-V Soc |              |              | https://milkv.io/chips/sg2380                                |
-| Phytium  | X100     | AXT-16-512 | Volcanic | 400/600Mhz | 桥片       | 30.3.816.20  | 1.16@6099580 | 自购验证（GPU频率根据文档可得有两种规格，同时还有不带GPU的版本） |
+| 厂商名称          | 产品型号 | IP型号     | 系列     | GPU频率    | 产品类型   | BVNC Code    | DDK Version  | 来源/备注                                                    |
+| ----------------- | -------- | ---------- | -------- | ---------- | ---------- | ------------ | ------------ | ------------------------------------------------------------ |
+| Texas Instruments | AM62     | AXE-1-16M  | Rogue    |            | ARM Soc    | 33.15.11.3   |              |                                                              |
+| ESWIN             | EIC7700  | AXM-8-256  | Volcanic | 800Mhz     | RISC-V Soc | 30.3.408.101 | 24.2@6643903 | 自购验证                                                     |
+| ESWIN             | EIC7702  | AXM-8-256  | Volcanic | 800Mhz     | RISC-V Soc | 30.3.408.101 | 24.2@6643903 | 自购验证（使用EIC7700判断）                                  |
+| Sophgo            | SG2380   | AXT-16-512 | Volcanic |            | RISC-V Soc |              |              | https://milkv.io/chips/sg2380                                |
+| Phytium           | X100     | AXT-16-512 | Volcanic | 400/600Mhz | 桥片       | 30.3.816.20  | 1.16@6099580 | 自购验证（GPU频率根据文档可得有两种规格，同时还有不带GPU的版本） |
 
 **B-Series B系列：**
 
@@ -29,6 +31,7 @@
 | StarFive          | JH7110           | BXE-4-32 MC1    | Rogue    | 594MHz   | RISC-V Soc | 36.50.54.182  | 1.19@6345021 | 自购验证                                                     |
 | Texas Instruments | AM68             | BXS-4-64 MC1    | Rogue    | 800Mhz   | ARM Soc    | 36.53.104.796 | 24.2@6643903 | 自购验证                                                     |
 | XuanTie           | TH1520           | BXM-4-64        | Rogue    |          | RISC-V Soc | 36.52.104.182 | 1.17@6210866 | 自购验证                                                     |
+|                   |                  | BXM-4-64 MC1    | Rogue    |          | RISC-V Soc |               |              |                                                              |
 | Allwinner         | A733             | BXM-4-64 MC1    | Rogue    |          | ARM Soc    | 36.56.104.183 | 24.2@6603887 |                                                              |
 | MediaTek          | MT6855           | BXM-8-256       | Volcanic |          | ARM Soc    | 35.V.408.23   | 1.15@6133110 |                                                              |
 | Innosilicon       | Fantasy 1 Type-A | BXT-32-1024 MC4 | Volcanic |          | 独立显卡   | 35.4.1632.23  |              |                                                              |
