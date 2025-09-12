@@ -23,12 +23,13 @@
 
 # Volcanic 系列
 
-| 厂商名称 | 产品型号           | IP型号     | 频率   | DDK Version   | fp32-scalar   | fp32-vec4     | fp16-scalar   | fp16-vec4     | int32-scalar | int32-vec4  | int16-scalar | int16-vec4  | int64-scalar | int64-vec4  |
-| -------- | ------------------ | ---------- | ------ | ------------- | ------------- | ------------- | ------------- | ------------- | ------------ | ----------- | ------------ | ----------- | ------------ | ----------- |
-| ESWIN    | EIC7700            | AXM-8-256  | 800Mhz | 1.18@6307965  | 182.81 GFLOPS | 101.30 GFLOPS | 182.53 GFLOPS | 91.69 GFLOPS  | 45.33 GIOPS  | 42.26 GIOPS | 45.15 GIOPS  | 42.39 GIOPS |              |             |
-| ESWIN    | EIC7700            | AXM-8-256  | 800Mhz | 24.2@6643903  | 182.75 GFLOPS | 182.79 GFLOPS | 182.46 GFLOPS | 149.08 GFLOPS | 45.32 GIOPS  | 42.54 GIOPS | 45.15 GIOPS  | 42.50 GIOPS |              |             |
-| ESWIN    | EIC7702（任意GPU） | AXM-8-256  | 800Mhz | 24.2@6643903  | 182.72 GFLOPS | 182.74 GFLOPS | 182.43 GFLOPS | 149.24 GFLOPS | 45.37 GIOPS  | 42.57 GIOPS | 45.18 GIOPS  | 42.52 GIOPS |              |             |
-| Phytium  | X100               | AXT-16-512 | 400Mhz | 1.16@6099580 | 203.07 GFLOPS | 103.80 GFLOPS | 187.35 GFLOPS | 156.68 GFLOPS | 45.12 GIOPS | 42.29 GIOPS | 44.95 GIOPS | 42.25 GIOPS | 15.07 GIOPS | 11.26 GIOPS |
+| 厂商名称 | 产品型号           | IP型号     | 频率   | DDK Version   | fp32-scalar   | fp32-vec4     | fp16-scalar   | fp16-vec4     | int32-scalar | int32-vec4  | int16-scalar | int16-vec4  | int64-scalar | int64-vec4  | int8-dotprod |
+| -------- | ------------------ | ---------- | ------ | ------------- | ------------- | ------------- | ------------- | ------------- | ------------ | ----------- | ------------ | ----------- | ------------ | ----------- | ----------- |
+| ESWIN    | EIC7700            | AXM-8-256  | 800Mhz | 1.18@6307965  | 182.81 GFLOPS | 101.30 GFLOPS | 182.53 GFLOPS | 91.69 GFLOPS  | 45.33 GIOPS  | 42.26 GIOPS | 45.15 GIOPS  | 42.39 GIOPS |              |             |             |
+| ESWIN    | EIC7700            | AXM-8-256  | 800Mhz | 24.2@6643903  | 182.75 GFLOPS | 182.79 GFLOPS | 182.46 GFLOPS | 149.08 GFLOPS | 45.32 GIOPS  | 42.54 GIOPS | 45.15 GIOPS  | 42.50 GIOPS |              |             |             |
+| ESWIN    | EIC7702（任意GPU） | AXM-8-256  | 800Mhz | 24.2@6643903  | 182.72 GFLOPS | 182.74 GFLOPS | 182.43 GFLOPS | 149.24 GFLOPS | 45.37 GIOPS  | 42.57 GIOPS | 45.18 GIOPS  | 42.52 GIOPS |              |             |             |
+| Phytium  | X100               | AXT-16-512 | 400Mhz | 1.16@6099580 | 203.07 GFLOPS | 103.80 GFLOPS | 187.35 GFLOPS | 156.68 GFLOPS | 45.12 GIOPS | 42.29 GIOPS | 44.95 GIOPS | 42.25 GIOPS | 15.07 GIOPS | 11.26 GIOPS |  |
+| Google | Tensor G5 | DXT-48-1536-0.5RT2 MC1 | 396 MHz（Base） | 24.3@6660496 | 1608.84 GFLOPS | 1633.70 GFLOPS | 1795.98 GFLOPS | 2249.23 GFLOPS | 314.78 GIOPS | 314.64 GIOPS | 314.74 GIOPS | 314.78 GIOPS |  |  | 1677.82 GIOPS |
 
 
 对比测试使用vkpeak （https://github.com/nihui/vkpeak）

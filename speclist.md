@@ -49,11 +49,11 @@
 
 **D-Series D系列：**
 
-| 厂商名称    | 产品型号  | IP型号             | 系列     | GPU频率         | 产品类型 | BVNC Code | DDK Version  | 来源/备注                                                    |
-| ----------- | --------- | ------------------ | -------- | --------------- | -------- | --------- | ------------ | ------------------------------------------------------------ |
-| Google      | Tensor G5 | DXT-48-1536-0.5RT2 | Volcanic | 396 MHz（Base） | ARM Soc  |           | 24.3@6660496 |                                                              |
-| Xiaomi      |           | DXT-72-2304        | Volcanic |                 | ARM Soc  |           |              | 本处出处来源微博（内容已被删除出处无法考究），另有酷安来源为：CXT-48-1536<br />但根据IMG产品宣传文档推测为DXT系列 |
-| XIANGDIXIAN | FuXi A0   | DXD-72-2304        | Volcanic |                 | 独立显卡 |           |              | https://www.imaginationtech.com/products/gpu/img-dxd-gpu/    |
+| 厂商名称    | 产品型号  | IP型号                 | 系列     | GPU频率         | 产品类型 | BVNC Code | DDK Version  | 来源/备注                                                    |
+| ----------- | --------- | ---------------------- | -------- | --------------- | -------- | --------- | ------------ | ------------------------------------------------------------ |
+| Google      | Tensor G5 | DXT-48-1536-0.5RT2 MC1 | Volcanic | 396 MHz（Base） | ARM Soc  |           | 24.3@6660496 |                                                              |
+| Xiaomi      |           | DXT-72-2304            | Volcanic |                 | ARM Soc  |           |              | 本处出处来源微博（内容已被删除出处无法考究），另有酷安来源为：CXT-48-1536<br />但根据IMG产品宣传文档推测为DXT系列 |
+| XIANGDIXIAN | FuXi A0   | DXD-72-2304            | Volcanic |                 | 独立显卡 |           |              | https://www.imaginationtech.com/products/gpu/img-dxd-gpu/    |
 
 
 > [!TIP]
