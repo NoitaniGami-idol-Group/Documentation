@@ -2,14 +2,14 @@
 
 **使用数字代号的系列：**
 
-| 厂商名称   | 产品型号 | IP型号   | 系列  | GPU频率 | 产品类型   | BVNC Code | DDK Version  | 来源/备注 |
-| ---------- | -------- | -------- | ----- | ------- | ---------- | --------- | ------------ | --------- |
-| MediaTek   | MT8173C  | GX6250   | Rogue | 700MHz  | ARM Soc    | 4.40.2.51 | 1.17@6210866 |           |
-| Apple      | A10      | GT7600   | Rogue | 900MHz  | ARM Soc    |           |              |           |
-|            |          | GE8300   | Rogue | 850Mhz  | RISC-V Soc |           | 23.2         |           |
-| Synaptics  | VS680    | GE9920   | Rogue |         | ARM Soc    |           |              |           |
-| RuixinView | BF2001   | 9 Series | Rogue | 1600MHz | 独立显卡   |           |              |           |
-| RuixinView | BF2002   | 9 Series | Rogue | 850MHz  | 独立显卡   |           |              |           |
+| 厂商名称   | 产品型号 | IP型号 | 系列  | GPU频率 | 产品类型   | BVNC Code     | DDK Version  | 来源/备注 |
+| ---------- | -------- | ------ | ----- | ------- | ---------- | ------------- | ------------ | --------- |
+| MediaTek   | MT8173C  | GX6250 | Rogue | 700MHz  | ARM Soc    | 4.40.2.51     | 1.17@6210866 |           |
+| Apple      | A10      | GT7600 | Rogue | 900MHz  | ARM Soc    |               |              |           |
+|            |          | GE8300 | Rogue | 850Mhz  | RISC-V Soc |               | 23.2         |           |
+| Synaptics  | VS680    | GE9920 | Rogue |         | ARM Soc    |               |              |           |
+| RuixinView | BF2001   | GM9446 | Rogue | 1600MHz | 独立显卡   | 24.56.208.505 | 1.16@6099580 |           |
+| RuixinView | BF2002   | GM9446 | Rogue | 850MHz  | 独立显卡   | 24.56.208.505 | 1.16@6099580 |           |
 
 
 
