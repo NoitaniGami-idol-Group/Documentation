@@ -34,8 +34,8 @@
 |                   |                  | BXM-4-64 MC1    | Rogue    |          | RISC-V Soc |               |              |                                                              |
 | Allwinner         | A733             | BXM-4-64 MC1    | Rogue    |          | ARM Soc    | 36.56.104.183 | 24.2@6603887 |                                                              |
 | MediaTek          | MT6855           | BXM-8-256       | Volcanic |          | ARM Soc    | 35.V.408.23   | 1.15@6133110 |                                                              |
-| Innosilicon       | Fantasy 1 Type-A | BXT-32-1024 MC4 | Volcanic |          | 独立显卡   | 35.4.1632.23  |              |                                                              |
-| Innosilicon       | Fantasy 2        | BXT-32-1024 MC1 | Volcanic |          | 独立显卡   | 35.4.1632.23  |              |                                                              |
+| Innosilicon       | Fantasy 1 Type-A | BXT-32-1024 MC4 | Volcanic |          | 独立显卡   | 35.4.1632.23  | 1.19         |                                                              |
+| Innosilicon       | Fantasy 2        | BXT-32-1024 MC1 | Volcanic |          | 独立显卡   | 35.4.1632.23  | 1.19         |                                                              |
 | Moore Threads     | MTT-S80          | BXT-32-1024 MC8 | Volcanic | 1800 MHz | 独立显卡   | 35.4.1632.23  | 1.19@6345021 | https://vulkan.gpuinfo.org/displayreport.php?id=36623<br />驱动信息推断为原始基础版本，实际被其进行过大量改动，可能和IMGDDK特性已经有所不同 |
 | Moore Threads     | MTT-S70          | BXT-32-1024 MC8 | Volcanic | 1600 MHz | 独立显卡   | 35.4.1632.23  | 1.19@6345021 |                                                              |
 | Moore Threads     | MTT-S30          | BXT-32-1024 MC2 | Volcanic | 1300 MHz | 独立显卡   | 35.4.1632.23  | 1.19@6345021 |                                                              |
