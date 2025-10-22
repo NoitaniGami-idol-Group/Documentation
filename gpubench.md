@@ -27,7 +27,7 @@ title: Vulkan 性能对比 表格版
 | Texas Instruments | AM68     | BXS-4-64 MC1 | 800Mhz   | 23.3@6512818 | 1.18 GFLOPS | 1.36 GFLOPS | 2.34 GFLOPS | 1.48 GFLOPS | 14.28 GIOPS  | 1.19 GIOPS | 14.44 GIOPS  | 1.17 GIOPS |              |            |              |
 | Texas Instruments | AM68     | BXS-4-64 MC1 | 800Mhz   | 24.1@6554834 | 1.18 GFLOPS | 1.36 GFLOPS | 2.35 GFLOPS | 1.48 GFLOPS | 14.54 GIOPS  | 1.18 GIOPS | 14.61 GIOPS  | 1.17 GIOPS |              |            |              |
 | Texas Instruments | AM68     | BXS-4-64 MC1 | 800Mhz   | 24.2@6643903 | 4.61 GFLOPS | 1.36 GFLOPS | 4.67 GFLOPS | 1.48 GFLOPS | 14.55 GIOPS  | 1.18 GIOPS | 14.56 GIOPS  | 1.17 GIOPS |              |            |              |
-| XuanTie           | TH1520   | BXM-4-64     |          | 1.17@6210866 | 1.54 GFLOPS | 3.09 GFLOPS | 8.58 GFLOPS | 2.54 GFLOPS | 8.68 GIOPS   | 1.54 GIOPS | 8.68 GIOPS   | 1.54 GIOPS |              |            |              |
+| XuanTie           | TH1520   | BXM-4-64 MC1 | 792Mhz   | 1.17@6210866 | 2.99 GFLOPS | 3.07 GFLOPS | 9.48 GFLOPS | 4.05 GFLOPS | 10.83 GIOPS  | 1.53 GIOPS | 10.80 GIOPS  | 1.54 GIOPS | 3.63 GIOPS   | 0.54 GIOPS | 2.45 GIOPS   |
 | Allwinner         | A733     | BXM-4-64 MC1 | 600Mhz   | 24.2@6603887 | 6.61 GFLOPS | 1.40 GFLOPS | 6.03 GFLOPS | 3.42 GFLOPS | 10.91 GIOPS  | 1.16 GIOPS | 10.42 GIOPS  | 1.16 GIOPS | 4.69 GIOPS   | 0.27 GIOPS | 72.32 GIOPS  |
 
 # Volcanic 系列
