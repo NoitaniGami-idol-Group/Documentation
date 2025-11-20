@@ -30,7 +30,7 @@
 | SpacemiT          | K1/M1            | BXE-2-32 MC1    | Rogue    | 614.4Mhz | RISC-V Soc | 36.29.52.182  | 24.2@6603887 | 自购验证                                                     |
 | StarFive          | JH7110           | BXE-4-32 MC1    | Rogue    | 594MHz   | RISC-V Soc | 36.50.54.182  | 1.19@6345021 | 自购验证                                                     |
 | Texas Instruments | AM68             | BXS-4-64 MC1    | Rogue    | 800Mhz   | ARM Soc    | 36.53.104.796 | 24.2@6643903 | 自购验证                                                     |
-| XuanTie           | TH1520           | BXM-4-64        | Rogue    |          | RISC-V Soc | 36.52.104.182 | 1.17@6210866 | 自购验证                                                     |
+| XuanTie           | TH1520           | BXM-4-64 MC1    | Rogue    | 792Mhz   | RISC-V Soc | 36.52.104.182 | 1.17@6210866 | 自购验证                                                     |
 |                   |                  | BXM-4-64 MC1    | Rogue    |          | RISC-V Soc |               |              |                                                              |
 | Allwinner         | A733             | BXM-4-64 MC1    | Rogue    | 600Mhz   | ARM Soc    | 36.56.104.183 | 24.2@6603887 |                                                              |
 | MediaTek          | MT6855           | BXM-8-256       | Volcanic |          | ARM Soc    | 35.V.408.23   | 1.15@6133110 |                                                              |
