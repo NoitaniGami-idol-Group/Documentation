@@ -17,18 +17,20 @@ title: Vulkan 性能对比 表格版
 
 # Rogue 系列
 
-| 厂商名称          | 产品型号 | IP型号       | 频率     | DDK Version  | fp32-scalar | fp32-vec4   | fp16-scalar | fp16-vec4   | int32-scalar | int32-vec4 | int16-scalar | int16-vec4 | int64-scalar | int64-vec4 | int8-dotprod |
-| ----------------- | -------- | ------------ | -------- | ------------ | ----------- | ----------- | ----------- | ----------- | ------------ | ---------- | ------------ | ---------- | ------------ | ---------- | ------------ |
-| SpacemiT          | K1/M1    | BXE-2-32 MC1 | 614.4Mhz | 23.2@6460340 | 0.67 GFLOPS | 0.76 GFLOPS | 1.31 GFLOPS | 0.88 GFLOPS | 7.64 GIOPS   | 0.67 GIOPS | 7.64 GIOPS   | 0.67 GIOPS |              |            |              |
-| SpacemiT          | K1/M1    | BXE-2-32 MC1 | 614.4Mhz | 24.2@6603887 | 2.56 GFLOPS | 0.76 GFLOPS | 2.53 GFLOPS | 0.88 GFLOPS | 7.74 GIOPS   | 0.67 GIOPS | 7.78 GIOPS   | 0.67 GIOPS |              |            |              |
-| StarFive          | JH7110   | BXE-4-32 MC1 | 594MHz   | 1.17@6210866 | 1.08 GFLOPS | 2.31 GFLOPS | 5.84 GFLOPS | 1.89 GFLOPS | 4.67 GIOPS   | 1.15 GIOPS | 4.67 GIOPS   | 1.15 GIOPS |              |            |              |
-| Texas Instruments | AM68     | BXS-4-64 MC1 | 800Mhz   | 23.1@6404501 | 1.18 GFLOPS | 1.36 GFLOPS | 2.34 GFLOPS | 1.48 GFLOPS | 14.25 GIOPS  | 1.19 GIOPS | 14.49 GIOPS  | 1.17 GIOPS |              |            |              |
-| Texas Instruments | AM68     | BXS-4-64 MC1 | 800Mhz   | 23.2@6460340 | 1.18 GFLOPS | 1.36 GFLOPS | 2.34 GFLOPS | 1.48 GFLOPS | 14.30 GIOPS  | 1.19 GIOPS | 14.47 GIOPS  | 1.17 GIOPS |              |            |              |
-| Texas Instruments | AM68     | BXS-4-64 MC1 | 800Mhz   | 23.3@6512818 | 1.18 GFLOPS | 1.36 GFLOPS | 2.34 GFLOPS | 1.48 GFLOPS | 14.28 GIOPS  | 1.19 GIOPS | 14.44 GIOPS  | 1.17 GIOPS |              |            |              |
-| Texas Instruments | AM68     | BXS-4-64 MC1 | 800Mhz   | 24.1@6554834 | 1.18 GFLOPS | 1.36 GFLOPS | 2.35 GFLOPS | 1.48 GFLOPS | 14.54 GIOPS  | 1.18 GIOPS | 14.61 GIOPS  | 1.17 GIOPS |              |            |              |
-| Texas Instruments | AM68     | BXS-4-64 MC1 | 800Mhz   | 24.2@6643903 | 4.61 GFLOPS | 1.36 GFLOPS | 4.67 GFLOPS | 1.48 GFLOPS | 14.55 GIOPS  | 1.18 GIOPS | 14.56 GIOPS  | 1.17 GIOPS |              |            |              |
-| XuanTie           | TH1520   | BXM-4-64 MC1 | 792Mhz   | 1.17@6210866 | 2.99 GFLOPS | 3.07 GFLOPS | 9.48 GFLOPS | 4.05 GFLOPS | 10.83 GIOPS  | 1.53 GIOPS | 10.80 GIOPS  | 1.54 GIOPS | 3.63 GIOPS   | 0.54 GIOPS | 2.45 GIOPS   |
-| Allwinner         | A733     | BXM-4-64 MC1 | 600Mhz   | 24.2@6603887 | 6.61 GFLOPS | 1.40 GFLOPS | 6.03 GFLOPS | 3.42 GFLOPS | 10.91 GIOPS  | 1.16 GIOPS | 10.42 GIOPS  | 1.16 GIOPS | 4.69 GIOPS   | 0.27 GIOPS | 72.32 GIOPS  |
+| 厂商名称          | 产品型号 | IP型号       | 频率     | DDK Version          | fp32-scalar | fp32-vec4   | fp16-scalar | fp16-vec4   | int32-scalar | int32-vec4 | int16-scalar | int16-vec4 | int64-scalar | int64-vec4 | int8-dotprod |
+| ----------------- | -------- | ------------ | -------- | -------------------- | ----------- | ----------- | ----------- | ----------- | ------------ | ---------- | ------------ | ---------- | ------------ | ---------- | ------------ |
+| SpacemiT          | K1/M1    | BXE-2-32 MC1 | 614.4Mhz | 23.2@6460340         | 0.67 GFLOPS | 0.76 GFLOPS | 1.31 GFLOPS | 0.88 GFLOPS | 7.64 GIOPS   | 0.67 GIOPS | 7.64 GIOPS   | 0.67 GIOPS |              |            |              |
+| SpacemiT          | K1/M1    | BXE-2-32 MC1 | 614.4Mhz | 24.2@6603887         | 2.56 GFLOPS | 0.76 GFLOPS | 2.53 GFLOPS | 0.88 GFLOPS | 7.74 GIOPS   | 0.67 GIOPS | 7.78 GIOPS   | 0.67 GIOPS |              |            |              |
+| StarFive          | JH7110   | BXE-4-32 MC1 | 594MHz   | 1.17@6210866         | 1.08 GFLOPS | 2.31 GFLOPS | 5.84 GFLOPS | 1.89 GFLOPS | 4.67 GIOPS   | 1.15 GIOPS | 4.67 GIOPS   | 1.15 GIOPS |              |            |              |
+| Texas Instruments | AM68     | BXS-4-64 MC1 | 800Mhz   | 23.1@6404501         | 1.18 GFLOPS | 1.36 GFLOPS | 2.34 GFLOPS | 1.48 GFLOPS | 14.25 GIOPS  | 1.19 GIOPS | 14.49 GIOPS  | 1.17 GIOPS |              |            |              |
+| Texas Instruments | AM68     | BXS-4-64 MC1 | 800Mhz   | 23.2@6460340         | 1.18 GFLOPS | 1.36 GFLOPS | 2.34 GFLOPS | 1.48 GFLOPS | 14.30 GIOPS  | 1.19 GIOPS | 14.47 GIOPS  | 1.17 GIOPS |              |            |              |
+| Texas Instruments | AM68     | BXS-4-64 MC1 | 800Mhz   | 23.3@6512818         | 1.18 GFLOPS | 1.36 GFLOPS | 2.34 GFLOPS | 1.48 GFLOPS | 14.28 GIOPS  | 1.19 GIOPS | 14.44 GIOPS  | 1.17 GIOPS |              |            |              |
+| Texas Instruments | AM68     | BXS-4-64 MC1 | 800Mhz   | 24.1@6554834         | 2.35 GFLOPS | 1.87 GFLOPS | 4.54 GFLOPS | 4.56 GFLOPS | 14.55 GIOPS  | 1.55 GIOPS | 14.61 GIOPS  | 1.55 GIOPS | 6.27 GIOPS   | 0.36 GIOPS | 96.51 GIOPS  |
+| Texas Instruments | AM68     | BXS-4-64 MC1 | 800Mhz   | 24.2@6643903         | 4.61 GFLOPS | 1.36 GFLOPS | 4.67 GFLOPS | 1.48 GFLOPS | 14.55 GIOPS  | 1.18 GIOPS | 14.56 GIOPS  | 1.17 GIOPS |              |            |              |
+| XuanTie           | TH1520   | BXM-4-64 MC1 | 792Mhz   | 1.17@6210866         | 2.99 GFLOPS | 3.07 GFLOPS | 9.48 GFLOPS | 4.05 GFLOPS | 10.83 GIOPS  | 1.53 GIOPS | 10.80 GIOPS  | 1.54 GIOPS | 3.63 GIOPS   | 0.54 GIOPS | 2.45 GIOPS   |
+| XuanTie           | TH1520   | BXM-4-64 MC1 | 792Mhz   | 25.1@6715691         | 8.75 GFLOPS | 1.85 GFLOPS | 7.98 GFLOPS | 4.52 GFLOPS | 14.07 GIOPS  | 1.53 GIOPS | 13.97 GIOPS  | 1.53 GIOPS | 6.19 GIOPS   | 0.36 GIOPS | 95.54 GIOPS  |
+| XuanTie           | TH1520   | BXM-4-64 MC1 | 792Mhz   | mesa 25.3 (开源驱动) | 1.51 GFLOPS | 0.64 GFLOPS |             |             | 1.47 GIOPS   | 0.57 GIOPS |              |            |              |            |              |
+| Allwinner         | A733     | BXM-4-64 MC1 | 600Mhz   | 24.2@6603887         | 6.61 GFLOPS | 1.40 GFLOPS | 6.03 GFLOPS | 3.42 GFLOPS | 10.91 GIOPS  | 1.16 GIOPS | 10.42 GIOPS  | 1.16 GIOPS | 4.69 GIOPS   | 0.27 GIOPS | 72.32 GIOPS  |
 
 # Volcanic 系列
 
