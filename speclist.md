@@ -31,9 +31,9 @@
 | StarFive          | JH7110                              | BXE-4-32 MC1    | Rogue    | 594MHz   | RISC-V Soc | 36.50.54.182  | 1.19@6345021 | 自购验证                                                     |
 | Texas Instruments | AM68                                | BXS-4-64 MC1    | Rogue    | 800Mhz   | ARM Soc    | 36.53.104.796 | 24.2@6643903 | 自购验证                                                     |
 | XuanTie           | TH1520                              | BXM-4-64 MC1    | Rogue    | 792Mhz   | RISC-V Soc | 36.52.104.182 | 25.1@6715691 | 自购验证                                                     |
+| zhcomputing       | A210                                | BXM-4-64 MC1    | Rogue    |          | RISC-V Soc |               |              | https://www.nexvedge.com/                                    |
 |                   |                                     | BXM-4-64 MC1    | Rogue    |          | RISC-V Soc |               |              |                                                              |
-|                   |                                     | BXM-4-64 MC1    | Rogue    |          | RISC-V Soc |               |              |                                                              |
-|                   |                                     | BXM-4-64 MC1    | Rogue    |          | RISC-V Soc |               |              |                                                              |
+| Spacemit          | K3                                  | BXM-4-64 MC1    | Rogue    |          | RISC-V Soc |               |              | https://www.reddit.com/r/RISCV/comments/1p0k6yd/possible_specs_and_status_of_spacemit_k3/ |
 | Tenstorrent       | Atlantis Customer Enablement Board  | BXM-4-64 MC1    | Rogue    |          | RISC-V Soc |               |              |                                                              |
 | Allwinner         | A733                                | BXM-4-64 MC1    | Rogue    | 600Mhz   | ARM Soc    | 36.56.104.183 | 24.2@6603887 |                                                              |
 | MediaTek          | MT6855                              | BXM-8-256       | Volcanic |          | ARM Soc    | 35.V.408.23   | 1.15@6133110 |                                                              |
