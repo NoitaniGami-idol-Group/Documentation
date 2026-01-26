@@ -40,6 +40,8 @@ title: Vulkan 性能对比 表格版
 | ESWIN    | EIC7700            | AXM-8-256              | 800Mhz          | 24.2@6643903 | 182.75 GFLOPS  | 182.79 GFLOPS  | 182.46 GFLOPS  | 149.08 GFLOPS  | 45.32 GIOPS  | 42.54 GIOPS  | 45.15 GIOPS  | 42.50 GIOPS  |              |             |               |
 | ESWIN    | EIC7702（任意GPU） | AXM-8-256              | 800Mhz          | 24.2@6643903 | 182.72 GFLOPS  | 182.74 GFLOPS  | 182.43 GFLOPS  | 149.24 GFLOPS  | 45.37 GIOPS  | 42.57 GIOPS  | 45.18 GIOPS  | 42.52 GIOPS  |              |             |               |
 | Phytium  | X100               | AXT-16-512             | 400Mhz          | 1.16@6099580 | 203.07 GFLOPS  | 103.80 GFLOPS  | 187.35 GFLOPS  | 156.68 GFLOPS  | 45.12 GIOPS  | 42.29 GIOPS  | 44.95 GIOPS  | 42.25 GIOPS  | 15.07 GIOPS  | 11.26 GIOPS |               |
-| Google   | Tensor G5          | DXT-48-1536-0.5RT2 MC1 | 396 MHz（Base） | 24.3@6660496 | 1608.84 GFLOPS | 1633.70 GFLOPS | 1795.98 GFLOPS | 2249.23 GFLOPS | 314.78 GIOPS | 314.64 GIOPS | 314.74 GIOPS | 314.78 GIOPS |              |             | 1677.82 GIOPS |
+| Google   | Tensor G5          | DXT-48-1536-0.5RT2 MC1 | 396MHz（Base） | 24.3@6660496 | 1608.84 GFLOPS | 1633.70 GFLOPS | 1795.98 GFLOPS | 2249.23 GFLOPS | 314.78 GIOPS | 314.64 GIOPS | 314.74 GIOPS | 314.78 GIOPS |              |             | 1677.82 GIOPS |
+| Innosilicon | Fantasy 2 | BXT-32-1024 MC1 | 1350MHz |              | 457.11 GFLOPS  | 377.91 GFLOPS  | 457.10 GFLOPS  | 289.91 GFLOPS  | 73.12 GIOPS  | 72.84 GIOPS  | 73.07 GIOPS  | 72.82 GIOPS  | 24.50 GIOPS  | 18.25 GIOPS | 507.43 GIOPS  |
+| Moore Threads | AB100（MTT-M1000） | BXT-32-1024 MC4 |                 |              | 2219.77 GFLOPS | 2298.25 GFLOPS | 2213.79 GFLOPS | 2101.92 GFLOPS | 382.67 GIOPS | 377.33 GIOPS | 392.10 GIOPS | 390.63 GIOPS | 131.76 GIOPS | 107.35 GIOPS | 2714.17 GIOPS |
 
 对比测试使用vkpeak （https://github.com/nihui/vkpeak）
